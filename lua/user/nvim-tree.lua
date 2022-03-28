@@ -42,7 +42,6 @@ nvim_tree.setup({
     "dashboard",
     "alpha",
   },
-  auto_close = true,
   open_on_tab = false,
   hijack_cursor = false,
   update_cwd = true,
@@ -96,5 +95,10 @@ nvim_tree.setup({
     files = 1,
     folder_arrows = 1,
     tree_width = 30,
+  },
+  actions = {
+    open_file = {
+      quit_on_open = true,
+    },
   },
 })
