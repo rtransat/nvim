@@ -87,7 +87,7 @@ return packer.startup(function(use)
 
   -- Language support
   use "editorconfig/editorconfig-vim"
-  use "ray-x/go.nvim"
+  use "fatih/vim-go"
 
   -- Telescope
   use({ "nvim-telescope/telescope-fzf-native.nvim", run = "make" })
