@@ -84,6 +84,7 @@ return packer.startup(function(use)
   use "jose-elias-alvarez/null-ls.nvim"
   use "jose-elias-alvarez/nvim-lsp-ts-utils"
   use "b0o/schemastore.nvim"
+  use "simrat39/rust-tools.nvim"
 
   -- Language support
   use "editorconfig/editorconfig-vim"
