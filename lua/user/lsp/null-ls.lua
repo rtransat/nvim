@@ -30,6 +30,7 @@ null_ls.setup({
     formatting.stylua.with({
       extra_args = { "--config-path", vim.fn.expand "~/.config/null-ls/stylua.toml" },
     }),
+    formatting.rustfmt,
 
     diagnostics.php,
   },
