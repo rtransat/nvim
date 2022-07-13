@@ -28,7 +28,7 @@ null_ls.setup({
       },
     }),
     formatting.stylua.with({
-      extra_args = { "--config-path", vim.fn.expand "~/.config/null-ls/stylua.toml" },
+      extra_args = { "--config-path", vim.fn.expand "~/.config/nvim/lua/user/config/null-ls/stylua.toml" },
     }),
     formatting.rustfmt,
 
